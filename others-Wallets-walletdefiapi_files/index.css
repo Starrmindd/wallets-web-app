@@ -1,0 +1,119 @@
+@import "cui.css";
+/* AB模板网 整站模板下载 */
+/* 模板：Www.AdminBuy.Cn */
+/* 仿站：Fang.AdminBuy.Cn */
+/* 素材：Sc.AdminBuy.Cn */
+/* js特效：js.AdminBuy.Cn */
+/* QQ：9490489 */
+
+/* 请根据项目类型删掉多余的引用 */
+@import "lib.css";
+
+@import "m-insless.css";
+/* 请在以下区间内开发 CSS 代码 */
+@import "iconfont.css";
+@import "m-nm.css";
+@import "m-public.css";
+@import "m-inside.css";
+@import "less.css"; 
+@import "m-insless.css";
+
+/* 结束 */
+
+
+.view .swiper-slide .imgauto {
+    width: 100%;
+    height: 350px;
+}
+.preview .swiper-slide {
+    width: 25%;
+    padding: 5px;
+}
+.preview .swiper-slide .imgauto {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.preview .active-nav .imgauto {
+    border: 1px solid #0152ad;
+}
+.preview .swiper-container {
+    width: 80%;
+    margin: 0 10%;
+}
+.preview  {
+    position: relative;
+}
+.preview .arrow-left {
+    background: url(../images/feel3.png) no-repeat left top;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -9px;
+    width: 9px;
+    height: 18px;
+    z-index: 10;
+}
+.preview .arrow-right {
+    background: url(../images/feel4.png) no-repeat left bottom;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -9px;
+    width: 9px;
+    height: 18px;
+    z-index: 10;
+}
+
+
+.work_list{width: 100%;padding-top: 12px;margin-bottom: 20px; overflow: hidden;}
+.work_list h4{line-height: 44px;background: url(../images/icon12.png) 95% center no-repeat;text-indent: 0px;background-size: auto 10px;border-bottom: 1px solid #f2f2f2;width: 100%;float: left; position:relative;}
+.work_list h4 a{float: left;line-height: 44px;color: #666;font-size: 14px;text-indent: 0;font-weight: normal;margin-left: 15px;}
+.work_list h4.on a{font-weight: bold;}
+.work_list h4 span{ width: 6px; height: 7px;color: #0152ad;display: inline-block;  float: left; font-weight:bold; position:absolute;top: -1px;}
+.work_list ul{display: none;float: left;width: 100%;}
+.work_list li{background: url(../images/icon12.png) 18px 15px no-repeat;text-indent: 10px;display: block;border-bottom: 1px solid #f2f2f2;width: 100%;line-height: 42px;background-size: 5px;}
+.work_list li a{display: block;color: #666;font-size: 14px;text-indent: 0;padding-left: 30px;}
+.work_list li.on a{ font-weight: bold; }
+.work_list li span{margin-right: 20px;}
+.pagebar .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.pagebar { padding:20px; overflow:hidden}
+.pagebar .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.pagination a {
+  background: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 12px;
+  padding: 5px 8px;
+  margin: 0 2px;
+  border-radius: 3px;
+}
+.pagination span {
+    color: #333;
+    font-size: 12px;
+    padding: 7px 2px;
+    margin: 0 2px;
+    border-radius: 3px;
+}
+.pagination a:hover {
+  color: #337ab7;
+  border: 1px solid #337ab7;
+}
+.pagination a.page-num-current {
+  color: #fff;
+  background: #337ab7;
+  border: 1px solid #337ab7;
+}
+.pagination .st{ font-family:宋体}
+.text-secondary{ text-align:center; padding:20px 0}
+
+.txt .jgg{ color:#F00; font-size:20px}
+
+#maximg img{ max-width:100%}
